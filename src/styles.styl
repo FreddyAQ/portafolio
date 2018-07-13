@@ -1,0 +1,475 @@
+/*header*/
+azulclaro = #38baf7
+azulito = #0068bf
+texto = #363636
+naranja = #e55526
+azulos = #003087
+botones = #0087e0
+
+
+body
+    font-family 'Lato', sans-serif
+    margin: 0
+    padding: 0
+
+.header 
+
+    .ps-fondo
+        width: 100%;
+        float: left;
+        background-color: black;
+
+    .ps-fondomenu
+        background: linear-gradient(#0094f0, #01277C);
+        width: 100%;
+        float: left;
+        height: 55px;
+
+        .ps-MegaNav
+            width: 100%
+            float: left
+            .ps-imagenlogo
+                a
+                    img 
+                        width: 30px
+                    &:focus
+                        background-color: #01277C
+
+                    &:hover
+                        background-color: #01277C
+
+            .mega-dropdown 
+                position: static !important;
+                
+                .boton
+                    background-color: #2670bd
+                    margin-top: 12px
+                    border: 3px solid #2673bf
+                    color: white
+
+                a
+                    color: white
+                    font-size: 11px;
+                    font-weight: 700;
+                    
+                   
+                    &:focus
+                        background-color: #01277C
+
+                    &:hover
+                        background-color: #01277C
+
+                .mega-dropdown-menu 
+                    padding: 20px 15px;
+                    text-align: center;
+                    width: 120%;
+                    background: linear-gradient(#01277C, #0094f0)
+                    border: 0px
+
+                    .ps-contenido
+                        .nav-list
+                            display: inline-flex;
+                            list-style-type: none
+
+                            li
+                                margin-left: 20px
+
+                            a
+                                color: white
+                                &:hover
+                                    list-style-type: none
+                                    color: #38baf7
+                                    background-color: transparent
+
+                                span 
+                                    display inline-block
+                                    vertical-align: top
+                                    margin-top: 5px
+                                    font-size: 6px
+
+                            .imagenhelp
+                                width: 80px
+
+                        .ps-ListaStore
+                            width: 100%
+                            float:left
+                            text-align: left
+
+                            h3
+                                    color: azulclaro
+                                    padding-left: 35px
+                                    font-size: 14px
+
+                            .ps-listnav
+                                list-style-type:none
+                                li
+                                    a
+                                        svg 
+                                            margin-right: 5px
+                        
+
+
+                    .ps-contenidoDos
+                        width: 100%
+                        float: left
+                        display: inline-flex;
+                        list-style-type: none;
+                        border-top: 2px solid rgba(255,255,255, .3)
+                        margin-top: 20px
+                        
+                        .ps-navlist
+                            display: inline-flex;
+                            list-style-type: none;
+                            margin: 20px
+
+                            li
+                                padding: 0px 20px
+
+                                .imagen
+                                    float: left
+
+                                
+
+                                a   
+                                    img 
+                                        width: 30px
+                                    span 
+                                        float: right
+                                        margin-top: 15px
+                        a
+                            img 
+                                margin-top: 10px;
+                                margin-right: 10px
+                                width: 40px;
+                                
+
+                            &:hover
+                                list-style-type: none
+                                color: #38baf7
+                                background-color: transparent
+
+            .ps-formulario
+                margin: 8px
+                input 
+                    background-color: #363636
+                    border: 0px
+                    border-radius: 0px
+                
+                span 
+                    background-color: #363636
+                    border: 0px
+
+                    button
+                        color: white
+                        background-color: #363636
+                        
+                        
+                
+.ps-infoestadoplay
+    margin: 50px 0
+    float left 
+    width: 100%
+
+    h2 
+        font-weight: 700
+        margin: 0
+        padding: 0
+        color: texto
+
+    h3
+        font-weight: 300
+        display: inline-block
+        vertical-align: top
+        margin: 0
+        padding: 0
+        color: azulito
+        font-family: "adelle",Georgia
+        font-style: italic
+
+        p
+            display inline-block
+            vertical-align: top
+            font-size: 13px
+            margin: 0
+
+    p 
+        margin: 20px 0  
+
+    a 
+        background-color: botones
+        color: white
+        text-transform: uppercase
+        border-radius: 0
+        font-weight: 700
+        font-size: 10px
+        padding: 10px 20px
+
+        &:hover
+            background-color: azulos
+            color: white            
+    
+.ps-slider
+    float: left
+    width: 100%
+
+.ps-imgplus
+    float: left;
+    width: 100%;
+
+.ps-weconect
+    float: left;
+    width: 100%;
+
+.ps-playgames
+    width: 100%
+    float: left
+    margin: 20px 0
+
+
+    .ps-title
+        margin: 25px 0
+
+        h2
+            font-weight: 500;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0;
+            padding: 0;
+            color: azulito
+            font-style: italic;
+            font-size: 20px;
+
+        h3
+            font-weight: 700
+            margin: 0
+            color: texto
+            font-size: 30px;
+
+.ps-playgames
+        .ps-recuadrolg
+            padding: 20px 15px
+            &:hover
+                background-color: #363636   
+                color: white 
+                cursor: pointer
+
+
+        .ps-recuadrosm
+            padding: 25px 15px
+            &:hover
+                background-color: #363636   
+                color: white 
+
+
+        .ps-textGames
+            h4
+                font-size: 12px
+                color: azulito
+           
+            h5
+                font-weight: 700
+                font-size: 12px
+                margin-top: 0px;
+    
+
+            p
+                color: white;
+                font-size: 10px;
+                
+
+
+.ps-ExpeIncreibles
+    .ps-experiencia
+        width: 100%;
+        float: left;
+    .ps-ExpeIncre
+        margin: 25px 0
+
+        h2
+            font-weight: 500;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0;
+            padding: 0;
+            color: azulito
+            font-style: italic;
+            font-size: 20px;
+
+        h3
+            font-weight: 700
+            margin: 0
+            color: texto
+            font-size: 30px;
+
+    .ps-GamesIncre
+        float: left
+        margin: 20px 0
+        width: 100%
+        .col-md-4
+            border-right: 1px solid lightgray
+
+            &:last-child
+                border: none
+            .ps-cuadrotext
+                padding-bottom: 30px
+
+                .ps-imgGamesNew
+                    padding-left: 20px;
+
+        .ps-textGamesNew
+            h4
+                font-weight: 500;
+                display: inline-block;
+                vertical-align: top;
+                margin: 0;
+                padding: 0;
+                color: azulito
+                font-family: "adelle",Georgia
+                font-style: italic;
+                font-size: 18px;
+
+            h5
+                font-weight: 700
+                margin: 5px
+                color: texto
+                font-size: 18px;
+               
+
+        .ps-textGamesNew
+            padding-top: 20px   
+
+        .Boton
+             a
+                background-color: botones
+                color: white
+                border-radius: 0px
+                margin-bottom: 60px;
+                padding: 10px 20px;
+                font-size: 10px;
+                font-weight: 700;
+                   
+
+
+.ps-weconect
+    .ps-titleRed
+        margin-bottom: 30px 
+        width 100%
+        float: left;
+        .ps-textTitle
+            margin: 40px 0
+            h2
+                font-weight: 500;
+                display: inline-block;
+                vertical-align: top;
+                margin: 0;
+                padding: 0;
+                color: azulito
+                font-style: italic;
+                font-size: 20px;
+
+            h3
+                font-weight: 700
+                margin: 0
+                color: texto
+                font-size: 30px;
+
+        .ps-contenido
+            background-color: #f5f5f5;
+            margin: 5px;
+            float: left;
+            height: 150px;
+            width: 90%;
+
+            .img-redsocial
+                margin-top: 20px
+
+            .ps-TextoInfo
+                padding-right: 30px;
+                h3
+                    font-size: 13px
+                    font-weight: 700
+                p
+                    font-size: 10px
+
+
+.ps-footer
+    background: linear-gradient(to right, #01439a,#0094f0,#01439a);
+    width: 100%;
+    float: left;
+    .ps-contenido
+        width: 100%
+        float: left
+        margin: 20px
+        .Logo
+            margin: 15px
+        
+        .Lista
+            margin: 20px 100px 0 0;
+            display inline
+        
+            li
+                margin-right: 5px
+                border-right: 2px solid rgba(255,255,255, .3)
+                display inline
+               
+                    
+
+                a
+                    font-size: 8px
+                    font-weight: 700
+                    color: white
+                    padding: 0 5px
+
+
+        .Volver
+            padding-top: 8px
+            a
+                color: white
+                
+                
+    .copy-segurity
+        .copy
+            span
+                margin-left: 80px;
+                color: #38baf7;
+                font-size: 9px;
+        .imagencopy
+            float: right
+            padding-right: 32px;
+    .ps-pais
+        a 
+            color: white
+            float: right
+            padding: 20px 48px;
+            font-weight: 700;
+            font-size: 11px;
+
+            i 
+                width: 20px
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+            
+    
+
+
+            
+
+
+
+ 
+    
+
