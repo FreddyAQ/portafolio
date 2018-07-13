@@ -1,0 +1,45 @@
+body{
+	background-color: tomato;
+}
+
+.contenedor{
+	display:flex;
+	width: 300px;
+	height: 40px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 40px;
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+	padding-left: 10px;
+	animation: Textoanimado 7s infinite;
+}
+ul, p{
+	margin: 0px;
+}
+
+@keyframes Textoanimado{
+
+	0%{margin-top: 0px;}
+	20%{margin-top: 0px;}
+
+	25%{margin-top: -40px;}
+	50%{margin-top: -40px;}
+
+    55%{margin-top: -80px;}
+	80%{margin-top: -80px;}
+
+	85%{margin-top: -40px;}
+	95%{margin-top: -40px;}
+
+	100%{margin-top: 0px;}
+}
